@@ -1,0 +1,218 @@
+{
+  "title": "Choose the new look for Morning Brief",
+  "question": "The roll assigned the Preflight Kneeboard. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Preflight Kneeboard",
+      "kicker": "THE ROLL",
+      "lineage": "pilot kneeboard briefing cards and aeronautical charts",
+      "thesis": "Your morning as a preflight briefing: one clipped card, read top to bottom, then you're cleared to go.",
+      "palette": [
+        "#f6f5ef",
+        "#121417",
+        "#c2187a",
+        "#2a6fdb",
+        "#e8a317"
+      ],
+      "materials": [
+        "matte chart paper",
+        "aluminium clip",
+        "hairline vector ink",
+        "aviation magenta route line"
+      ],
+      "viewport": "A clipped card: weather and date as a plain-words conditions strip, the headline as 'cleared for today', and your day drawn as a magenta route with a waypoint per meeting and a marker at now.",
+      "risk": "Aviation codes could creep in and lose non-pilots; every label stays plain English, the chart grammar does the work.",
+      "raised": [
+        {
+          "from": "challenger-emission",
+          "raise": "State lives in line form: solid is now, dashed is upcoming, struck is done; never colour alone."
+        },
+        {
+          "from": "challenger-bench",
+          "raise": "A folded tab marks where you stopped yesterday; everything after it is new."
+        },
+        {
+          "from": "challenger-timetable",
+          "raise": "One text size for body and labels; rank comes from weight and case, so the card reads calmly."
+        }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Tear-off Day Calendar",
+      "kicker": "IMPECCABLE\u2019S PICK",
+      "lineage": "page-a-day desk calendars",
+      "thesis": "Each brief is today's page on a desk pad; opening it tears yesterday away.",
+      "palette": [
+        "#fbfaf6",
+        "#17161a",
+        "#d7261e",
+        "#b89b5e"
+      ],
+      "materials": [
+        "newsprint pad",
+        "perforated edge",
+        "gilt binding strip"
+      ],
+      "viewport": "A huge red day numeral and weekday, the headline beneath it, the pad's stacked page edges visible; yesterday's page tears off as you arrive.",
+      "risk": "Familiar stationery skeuomorph; the giant numeral can feel like a gimmick by day five."
+    },
+    {
+      "id": "challenger-brick",
+      "label": "Build Instructions",
+      "verdict": "competitive",
+      "lineage": "brick toy instruction booklets",
+      "thesis": "The brief as a numbered build: each step is your next move, new pieces arrive bright, yesterday's sit ghosted.",
+      "palette": [
+        "#a8d8f0",
+        "#111111",
+        "#d01012",
+        "#f7d117",
+        "#ffffff"
+      ],
+      "materials": [
+        "booklet paper",
+        "black keylines",
+        "stud grid"
+      ],
+      "viewport": "Oversized step numerals down the page, each with a 1:1 call-out box of the app it came from; done items click flush.",
+      "case": "Everyone recognises it and 'new versus already known' maps cleanly; loses on clarity because a brief is prose, not wordless steps.",
+      "risk": "Toy-like; long paragraphs fight a wordless form."
+    },
+    {
+      "id": "challenger-manual",
+      "label": "Tabbed Reference Manual",
+      "verdict": "competitive",
+      "lineage": "boxed-software manuals with coloured dividers",
+      "thesis": "The brief as an open manual: every section is a coloured divider tab sized by how much is in it.",
+      "palette": [
+        "#f4f4ef",
+        "#d9572b",
+        "#f2c230",
+        "#5a9e3a",
+        "#1f8a8a",
+        "#2b45b5"
+      ],
+      "materials": [
+        "milk acetate leaves",
+        "full-strength divider board",
+        "punched holes"
+      ],
+      "viewport": "A stepped tab rail down the right edge shows the whole morning's shape; the open section's colour fills the board behind clear leaves.",
+      "case": "Wins on clarity, the tab rail shows the morning's shape at a glance; loses on audience, boxed manuals are a fading memory.",
+      "risk": "Its stepped, no-easing motion works against the smoothness you asked for."
+    },
+    {
+      "id": "challenger-emission",
+      "label": "Spectrogram Rail",
+      "verdict": "declined",
+      "lineage": "glass spectrogram plates",
+      "thesis": "Everything hangs off one rail; state is a line's height and dash.",
+      "palette": [
+        "#2a2b2d",
+        "#e9e4d8",
+        "#f2c94c"
+      ],
+      "materials": [
+        "charcoal continuum",
+        "hairline emission lines"
+      ],
+      "viewport": "One off-centre rail with sections as ticks.",
+      "case": "Loses both axes: non-technical readers don't know spectrograms, and dark ash plates slow morning reading.",
+      "kept": "State in line form, not hue.",
+      "risk": "Cold and specialist."
+    },
+    {
+      "id": "challenger-bench",
+      "label": "Film Cutting Bench",
+      "verdict": "declined",
+      "lineage": "film editor's select rail",
+      "thesis": "Days as frames on a perforated rail; a tape flag where you stopped.",
+      "palette": [
+        "#0c0c0c",
+        "#f26a1b",
+        "#ffffff"
+      ],
+      "materials": [
+        "film grain",
+        "punched windows"
+      ],
+      "viewport": "A perforated rail of past briefs across the top.",
+      "case": "Loses both: few people know a cutting bench, and lateral scrubbing slows reading.",
+      "kept": "A flag marks where you stopped.",
+      "risk": "Heavy orange on black is loud for 8am."
+    },
+    {
+      "id": "challenger-timetable",
+      "label": "Timetable Slide Rack",
+      "verdict": "declined",
+      "lineage": "1970s pocket airline timetables",
+      "thesis": "One type size; rank by weight, case and reversal.",
+      "palette": [
+        "#e2b33c",
+        "#1d1f22",
+        "#f3eedf",
+        "#d4442a"
+      ],
+      "materials": [
+        "tinted glass slides",
+        "lit goldenrod bed"
+      ],
+      "viewport": "Raked slides travelling sideways.",
+      "case": "Loses both: raked sideways travel hurts reading, and the reference is obscure.",
+      "kept": "One text size; rank by weight and case.",
+      "risk": "Raked containers tire the eye."
+    },
+    {
+      "id": "challenger-quarry",
+      "label": "Cloud Quarry",
+      "verdict": "declined",
+      "lineage": "surreal weather architecture",
+      "thesis": "Blocks of weather cut and stacked as sections.",
+      "palette": [
+        "#f7f9fb",
+        "#5fa8e8",
+        "#7b8794"
+      ],
+      "materials": [
+        "volumetric cloud",
+        "silver saw line"
+      ],
+      "viewport": "Stacked cloud blocks with blue gaps.",
+      "case": "Loses both: dreamlike, and it hides the task.",
+      "kept": "Weather as material, not an icon.",
+      "risk": "Pretty but vague."
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code"
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean productivity app, executed impeccably.",
+    "palette": [
+      "#ffffff",
+      "#111827",
+      "#2563eb",
+      "#f3f4f6"
+    ],
+    "materials": [
+      "clean grid",
+      "system type",
+      "soft cards"
+    ],
+    "viewport": "A tidy single-column brief with section cards and app icons, like a polished Notion or Linear page.",
+    "risk": "Indistinguishable from every other AI summary tool by design."
+  },
+  "steer": true,
+  "seed": "bf35fdf4",
+  "chosen": "model-pick"
+}

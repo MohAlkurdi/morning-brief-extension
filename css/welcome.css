@@ -1,0 +1,35 @@
+/* Setup: the live scene on top, one step at a time underneath. Lights come on as steps are finished. */
+
+.ob { max-width: 980px; margin: 0; margin-inline: max(0px, calc((100% - 1320px) / 2)); padding-bottom: 40px; }
+#step { max-width: 860px; }
+#step h1 { font: 500 clamp(30px, 3.4vw, 46px)/1.1 var(--display); letter-spacing: -.015em; margin: 14px 0 12px; }
+:lang(ar) #step h1 { font-weight: 700; line-height: 1.4; letter-spacing: 0; }
+#step .lead { margin-bottom: 26px; }
+#step h2 { font: 500 24px/1.2 var(--display); margin: 34px 0 10px; }
+:lang(ar) #step h2 { font-weight: 700; }
+
+.demo-banner { margin: 6px 0 4px; padding: 10px 14px; font-size: 14px; color: var(--accent-ink); background: var(--accent-wash); clip-path: var(--px); max-width: 860px; }
+
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 36px; align-items: start; }
+.intro > .field { margin-top: 18px; }
+.intro .scene-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.explore { margin-top: 22px; font-size: 14.5px; color: var(--muted); }
+.explore button { display: inline-flex; align-items: center; gap: 6px; font: inherit; color: var(--accent-ink); background: none; border: 0; padding: 0; cursor: pointer; font-weight: 700; }
+.explore .px-icon { width: 14px; height: 14px; transition: transform .25s steps(3, end); }
+.explore button:hover .px-icon { transform: translateX(3px); }
+[dir="rtl"] .explore button:hover .px-icon { transform: translateX(-3px); }
+
+.summary { margin: 6px 0 4px; }
+.summary-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 16px 0; background-image: var(--dots); background-size: 6px 2px; background-repeat: repeat-x; }
+.summary .stack { gap: 4px; }
+.summary .stack .app-icon + .app-icon { margin-inline-start: 0; }
+.summary-row .k { width: 110px; flex: none; font: 500 19px/1.2 var(--display); }
+:lang(ar) .summary-row .k { font-weight: 700; }
+
+.ob-nav { display: flex; align-items: center; max-width: 860px; margin-top: 36px; padding: 22px 0 10px; background-image: var(--dots); background-size: 6px 2px; background-repeat: repeat-x; }
+.ob-nav .btn { height: 44px; padding: 0 22px; font-size: 15px; }
+.spacer { flex: 1; }
+
+@media (max-width: 760px) {
+  .intro { grid-template-columns: 1fr; gap: 8px; }
+}

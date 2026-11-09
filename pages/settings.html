@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morning Brief settings</title>
+  <link rel="preload" href="../fonts/thmanyah-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/thmanyah-serif-display-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/settings.css">
+</head>
+<body data-time="morning" data-tone="light">
+  <header class="hero">
+    <canvas class="scene" aria-hidden="true"></canvas>
+    <nav class="bar">
+      <a class="wordmark" href="brief.html"></a>
+      <div class="tools"><a class="tool" id="back" href="brief.html"></a></div>
+    </nav>
+    <div class="hello">
+      <h1 class="greeting"></h1>
+      <p class="when"></p>
+    </div>
+  </header>
+  <div class="page shell">
+    <nav class="side"></nav>
+    <main id="main"></main>
+  </div>
+  <script type="module" src="settings.js"></script>
+</body>
+</html>

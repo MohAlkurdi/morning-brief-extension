@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T18:56:48+00:00",
+  "title": "Design System: Morning Brief",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground (morning paper)",
+        "canonical": "#f3f0e8",
+        "oklch": "oklch(95.5% 0.011 90)",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 90)",
+          "oklch(26.0% 0.011 90)",
+          "oklch(37.0% 0.011 90)",
+          "oklch(48.0% 0.011 90)",
+          "oklch(59.0% 0.011 90)",
+          "oklch(70.0% 0.011 90)",
+          "oklch(82.0% 0.011 90)",
+          "oklch(95.0% 0.011 90)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "canonical": "#fbfaf5",
+        "oklch": "oklch(98.4% 0.007 97)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 97)",
+          "oklch(26.0% 0.007 97)",
+          "oklch(37.0% 0.007 97)",
+          "oklch(48.0% 0.007 97)",
+          "oklch(59.0% 0.007 97)",
+          "oklch(70.0% 0.007 97)",
+          "oklch(82.0% 0.007 97)",
+          "oklch(95.0% 0.007 97)"
+        ]
+      },
+      "raised-2": {
+        "role": "neutral",
+        "displayName": "Raised Deep",
+        "canonical": "#e8e3d6",
+        "oklch": "oklch(91.6% 0.018 89)",
+        "tonalRamp": [
+          "oklch(15.0% 0.018 89)",
+          "oklch(26.0% 0.018 89)",
+          "oklch(37.0% 0.018 89)",
+          "oklch(48.0% 0.018 89)",
+          "oklch(59.0% 0.018 89)",
+          "oklch(70.0% 0.018 89)",
+          "oklch(82.0% 0.018 89)",
+          "oklch(95.0% 0.018 89)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1d2531",
+        "oklch": "oklch(26.2% 0.025 258)",
+        "tonalRamp": [
+          "oklch(15.0% 0.025 258)",
+          "oklch(26.0% 0.025 258)",
+          "oklch(37.0% 0.025 258)",
+          "oklch(48.0% 0.025 258)",
+          "oklch(59.0% 0.025 258)",
+          "oklch(70.0% 0.025 258)",
+          "oklch(82.0% 0.025 258)",
+          "oklch(95.0% 0.025 258)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#3f4856",
+        "oklch": "oklch(39.9% 0.026 259)",
+        "tonalRamp": [
+          "oklch(15.0% 0.026 259)",
+          "oklch(26.0% 0.026 259)",
+          "oklch(37.0% 0.026 259)",
+          "oklch(48.0% 0.026 259)",
+          "oklch(59.0% 0.026 259)",
+          "oklch(70.0% 0.026 259)",
+          "oklch(82.0% 0.026 259)",
+          "oklch(95.0% 0.026 259)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#626974",
+        "oklch": "oklch(51.9% 0.019 259)",
+        "tonalRamp": [
+          "oklch(15.0% 0.019 259)",
+          "oklch(26.0% 0.019 259)",
+          "oklch(37.0% 0.019 259)",
+          "oklch(48.0% 0.019 259)",
+          "oklch(59.0% 0.019 259)",
+          "oklch(70.0% 0.019 259)",
+          "oklch(82.0% 0.019 259)",
+          "oklch(95.0% 0.019 259)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#cfc8b8",
+        "oklch": "oklch(83.4% 0.023 87)",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 87)",
+          "oklch(26.0% 0.023 87)",
+          "oklch(37.0% 0.023 87)",
+          "oklch(48.0% 0.023 87)",
+          "oklch(59.0% 0.023 87)",
+          "oklch(70.0% 0.023 87)",
+          "oklch(82.0% 0.023 87)",
+          "oklch(95.0% 0.023 87)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Hour Accent: Morning Sky Blue",
+        "canonical": "#2f6fae",
+        "oklch": "oklch(53.1% 0.119 251)",
+        "tonalRamp": [
+          "oklch(15.0% 0.119 251)",
+          "oklch(26.0% 0.119 251)",
+          "oklch(37.0% 0.119 251)",
+          "oklch(48.0% 0.119 251)",
+          "oklch(59.0% 0.119 251)",
+          "oklch(70.0% 0.119 251)",
+          "oklch(82.0% 0.119 251)",
+          "oklch(95.0% 0.119 251)"
+        ]
+      },
+      "accent-ink": {
+        "role": "primary",
+        "displayName": "Accent Ink",
+        "canonical": "#245a8f",
+        "oklch": "oklch(45.9% 0.104 251)",
+        "tonalRamp": [
+          "oklch(15.0% 0.104 251)",
+          "oklch(26.0% 0.104 251)",
+          "oklch(37.0% 0.104 251)",
+          "oklch(48.0% 0.104 251)",
+          "oklch(59.0% 0.104 251)",
+          "oklch(70.0% 0.104 251)",
+          "oklch(82.0% 0.104 251)",
+          "oklch(95.0% 0.104 251)"
+        ]
+      },
+      "accent-wash": {
+        "role": "primary",
+        "displayName": "Accent Wash",
+        "canonical": "#dce8f3",
+        "oklch": "oklch(92.5% 0.020 246)",
+        "tonalRamp": [
+          "oklch(15.0% 0.020 246)",
+          "oklch(26.0% 0.020 246)",
+          "oklch(37.0% 0.020 246)",
+          "oklch(48.0% 0.020 246)",
+          "oklch(59.0% 0.020 246)",
+          "oklch(70.0% 0.020 246)",
+          "oklch(82.0% 0.020 246)",
+          "oklch(95.0% 0.020 246)"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On Accent",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 90)",
+          "oklch(26.0% 0.000 90)",
+          "oklch(37.0% 0.000 90)",
+          "oklch(48.0% 0.000 90)",
+          "oklch(59.0% 0.000 90)",
+          "oklch(70.0% 0.000 90)",
+          "oklch(82.0% 0.000 90)",
+          "oklch(95.0% 0.000 90)"
+        ]
+      },
+      "dawn-rose": {
+        "role": "primary",
+        "displayName": "Dawn Rose",
+        "canonical": "#b84a68",
+        "oklch": "oklch(56.2% 0.144 6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.144 6)",
+          "oklch(26.0% 0.144 6)",
+          "oklch(37.0% 0.144 6)",
+          "oklch(48.0% 0.144 6)",
+          "oklch(59.0% 0.144 6)",
+          "oklch(70.0% 0.144 6)",
+          "oklch(82.0% 0.144 6)",
+          "oklch(95.0% 0.144 6)"
+        ]
+      },
+      "afternoon-amber": {
+        "role": "primary",
+        "displayName": "Afternoon Amber",
+        "canonical": "#a8620e",
+        "oklch": "oklch(56.3% 0.125 62)",
+        "tonalRamp": [
+          "oklch(15.0% 0.125 62)",
+          "oklch(26.0% 0.125 62)",
+          "oklch(37.0% 0.125 62)",
+          "oklch(48.0% 0.125 62)",
+          "oklch(59.0% 0.125 62)",
+          "oklch(70.0% 0.125 62)",
+          "oklch(82.0% 0.125 62)",
+          "oklch(95.0% 0.125 62)"
+        ]
+      },
+      "evening-ember": {
+        "role": "primary",
+        "displayName": "Evening Ember",
+        "canonical": "#bf4d33",
+        "oklch": "oklch(56.7% 0.153 34)",
+        "tonalRamp": [
+          "oklch(15.0% 0.153 34)",
+          "oklch(26.0% 0.153 34)",
+          "oklch(37.0% 0.153 34)",
+          "oklch(48.0% 0.153 34)",
+          "oklch(59.0% 0.153 34)",
+          "oklch(70.0% 0.153 34)",
+          "oklch(82.0% 0.153 34)",
+          "oklch(95.0% 0.153 34)"
+        ]
+      },
+      "night-indigo": {
+        "role": "primary",
+        "displayName": "Night Indigo",
+        "canonical": "#5450c4",
+        "oklch": "oklch(50.2% 0.176 280)",
+        "tonalRamp": [
+          "oklch(15.0% 0.176 280)",
+          "oklch(26.0% 0.176 280)",
+          "oklch(37.0% 0.176 280)",
+          "oklch(48.0% 0.176 280)",
+          "oklch(59.0% 0.176 280)",
+          "oklch(70.0% 0.176 280)",
+          "oklch(82.0% 0.176 280)",
+          "oklch(95.0% 0.176 280)"
+        ]
+      },
+      "dawn-rose-dark": {
+        "role": "primary",
+        "displayName": "Dawn Rose (dark)",
+        "canonical": "#f08aa5",
+        "oklch": "oklch(75.0% 0.127 4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.127 4)",
+          "oklch(26.0% 0.127 4)",
+          "oklch(37.0% 0.127 4)",
+          "oklch(48.0% 0.127 4)",
+          "oklch(59.0% 0.127 4)",
+          "oklch(70.0% 0.127 4)",
+          "oklch(82.0% 0.127 4)",
+          "oklch(95.0% 0.127 4)"
+        ]
+      },
+      "morning-sky-dark": {
+        "role": "primary",
+        "displayName": "Morning Sky (dark)",
+        "canonical": "#7db6ee",
+        "oklch": "oklch(75.9% 0.101 249)",
+        "tonalRamp": [
+          "oklch(15.0% 0.101 249)",
+          "oklch(26.0% 0.101 249)",
+          "oklch(37.0% 0.101 249)",
+          "oklch(48.0% 0.101 249)",
+          "oklch(59.0% 0.101 249)",
+          "oklch(70.0% 0.101 249)",
+          "oklch(82.0% 0.101 249)",
+          "oklch(95.0% 0.101 249)"
+        ]
+      },
+      "afternoon-amber-dark": {
+        "role": "primary",
+        "displayName": "Afternoon Amber (dark)",
+        "canonical": "#f0b65a",
+        "oklch": "oklch(81.2% 0.128 77)",
+        "tonalRamp": [
+          "oklch(15.0% 0.128 77)",
+          "oklch(26.0% 0.128 77)",
+          "oklch(37.0% 0.128 77)",
+          "oklch(48.0% 0.128 77)",
+          "oklch(59.0% 0.128 77)",
+          "oklch(70.0% 0.128 77)",
+          "oklch(82.0% 0.128 77)",
+          "oklch(95.0% 0.128 77)"
+        ]
+      },
+      "evening-ember-dark": {
+        "role": "primary",
+        "displayName": "Evening Ember (dark)",
+        "canonical": "#ff8a6a",
+        "oklch": "oklch(75.5% 0.149 36)",
+        "tonalRamp": [
+          "oklch(15.0% 0.149 36)",
+          "oklch(26.0% 0.149 36)",
+          "oklch(37.0% 0.149 36)",
+          "oklch(48.0% 0.149 36)",
+          "oklch(59.0% 0.149 36)",
+          "oklch(70.0% 0.149 36)",
+          "oklch(82.0% 0.149 36)",
+          "oklch(95.0% 0.149 36)"
+        ]
+      },
+      "night-indigo-dark": {
+        "role": "primary",
+        "displayName": "Night Indigo (dark)",
+        "canonical": "#a7a3ff",
+        "oklch": "oklch(75.5% 0.131 285)",
+        "tonalRamp": [
+          "oklch(15.0% 0.131 285)",
+          "oklch(26.0% 0.131 285)",
+          "oklch(37.0% 0.131 285)",
+          "oklch(48.0% 0.131 285)",
+          "oklch(59.0% 0.131 285)",
+          "oklch(70.0% 0.131 285)",
+          "oklch(82.0% 0.131 285)",
+          "oklch(95.0% 0.131 285)"
+        ]
+      },
+      "night-ground-dark": {
+        "role": "neutral",
+        "displayName": "Night Ground (dark)",
+        "canonical": "#0e1120",
+        "oklch": "oklch(18.3% 0.031 274)",
+        "tonalRamp": [
+          "oklch(15.0% 0.031 274)",
+          "oklch(26.0% 0.031 274)",
+          "oklch(37.0% 0.031 274)",
+          "oklch(48.0% 0.031 274)",
+          "oklch(59.0% 0.031 274)",
+          "oklch(70.0% 0.031 274)",
+          "oklch(82.0% 0.031 274)",
+          "oklch(95.0% 0.031 274)"
+        ]
+      },
+      "scene-ink-light": {
+        "role": "neutral",
+        "displayName": "Scene Ink Light",
+        "canonical": "#16202c",
+        "oklch": "oklch(24.0% 0.027 253)",
+        "tonalRamp": [
+          "oklch(15.0% 0.027 253)",
+          "oklch(26.0% 0.027 253)",
+          "oklch(37.0% 0.027 253)",
+          "oklch(48.0% 0.027 253)",
+          "oklch(59.0% 0.027 253)",
+          "oklch(70.0% 0.027 253)",
+          "oklch(82.0% 0.027 253)",
+          "oklch(95.0% 0.027 253)"
+        ]
+      },
+      "scene-ink-dark": {
+        "role": "neutral",
+        "displayName": "Scene Ink Dark",
+        "canonical": "#fffaf2",
+        "oklch": "oklch(98.7% 0.012 80)",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 80)",
+          "oklch(26.0% 0.012 80)",
+          "oklch(37.0% 0.012 80)",
+          "oklch(48.0% 0.012 80)",
+          "oklch(59.0% 0.012 80)",
+          "oklch(70.0% 0.012 80)",
+          "oklch(82.0% 0.012 80)",
+          "oklch(95.0% 0.012 80)"
+        ]
+      },
+      "scene-chip-light": {
+        "role": "neutral",
+        "displayName": "Scene Chip Light",
+        "canonical": "rgb(255 255 255 / .62)"
+      },
+      "scene-chip-dark": {
+        "role": "neutral",
+        "displayName": "Scene Chip Dark",
+        "canonical": "rgb(12 10 28 / .38)"
+      },
+      "lamp-gold": {
+        "role": "tertiary",
+        "displayName": "Lamp Gold",
+        "canonical": "#ffd27a",
+        "oklch": "oklch(88.5% 0.118 83)",
+        "tonalRamp": [
+          "oklch(15.0% 0.118 83)",
+          "oklch(26.0% 0.118 83)",
+          "oklch(37.0% 0.118 83)",
+          "oklch(48.0% 0.118 83)",
+          "oklch(59.0% 0.118 83)",
+          "oklch(70.0% 0.118 83)",
+          "oklch(82.0% 0.118 83)",
+          "oklch(95.0% 0.118 83)"
+        ]
+      }
+    },
+    "hourPalettes": {
+      "source": "css/brief.css (:root is morning; body[data-time] overrides; dark under prefers-color-scheme)",
+      "dawn": {
+        "light": {
+          "ground": "#f6eeee",
+          "raised": "#fdf8f8",
+          "raised-2": "#ecdfe1",
+          "ink": "#2a2236",
+          "ink-2": "#4b4159",
+          "muted": "#6f6278",
+          "line": "#dccbd0",
+          "accent": "#b84a68",
+          "accent-ink": "#9c3b57",
+          "accent-wash": "#f6dbe2",
+          "on-accent": "#ffffff"
+        },
+        "dark": {
+          "ground": "#1c1722",
+          "raised": "#261f2d",
+          "raised-2": "#32293b",
+          "ink": "#f4ecf2",
+          "ink-2": "#cfc1cc",
+          "muted": "#9a8b98",
+          "line": "#3d3245",
+          "accent": "#f08aa5",
+          "accent-ink": "#f6a9bd",
+          "accent-wash": "#40202d",
+          "on-accent": "#1c1722"
+        }
+      },
+      "morning": {
+        "light": {
+          "ground": "#f3f0e8",
+          "raised": "#fbfaf5",
+          "raised-2": "#e8e3d6",
+          "ink": "#1d2531",
+          "ink-2": "#3f4856",
+          "muted": "#626974",
+          "line": "#cfc8b8",
+          "accent": "#2f6fae",
+          "accent-ink": "#245a8f",
+          "accent-wash": "#dce8f3",
+          "on-accent": "#ffffff"
+        },
+        "dark": {
+          "ground": "#131a21",
+          "raised": "#1b242d",
+          "raised-2": "#26313c",
+          "ink": "#eef1f4",
+          "ink-2": "#c3cad3",
+          "muted": "#8f99a5",
+          "line": "#34404c",
+          "accent": "#7db6ee",
+          "accent-ink": "#9ccaf5",
+          "accent-wash": "#1d3346",
+          "on-accent": "#0d1620"
+        }
+      },
+      "afternoon": {
+        "light": {
+          "ground": "#f6f0e1",
+          "raised": "#fdf9ef",
+          "raised-2": "#ebe2cc",
+          "ink": "#2a2418",
+          "ink-2": "#4a4232",
+          "muted": "#6a6250",
+          "line": "#d9cdb2",
+          "accent": "#a8620e",
+          "accent-ink": "#8c510b",
+          "accent-wash": "#f3e1c2",
+          "on-accent": "#ffffff"
+        },
+        "dark": {
+          "ground": "#1b1811",
+          "raised": "#25211a",
+          "raised-2": "#312c22",
+          "ink": "#f4efe3",
+          "ink-2": "#d1c8b5",
+          "muted": "#9c937f",
+          "line": "#3e3829",
+          "accent": "#f0b65a",
+          "accent-ink": "#f6c97f",
+          "accent-wash": "#3b2c12",
+          "on-accent": "#1b1811"
+        }
+      },
+      "evening": {
+        "light": {
+          "ground": "#f6ece7",
+          "raised": "#fdf8f5",
+          "raised-2": "#ecddd6",
+          "ink": "#2d1f2b",
+          "ink-2": "#4d3d49",
+          "muted": "#72606c",
+          "line": "#dccac3",
+          "accent": "#bf4d33",
+          "accent-ink": "#a23f28",
+          "accent-wash": "#f6dcd3",
+          "on-accent": "#ffffff"
+        },
+        "dark": {
+          "ground": "#1d1519",
+          "raised": "#281d22",
+          "raised-2": "#34272d",
+          "ink": "#f6ebee",
+          "ink-2": "#d4c2c7",
+          "muted": "#a08b92",
+          "line": "#42323a",
+          "accent": "#ff8a6a",
+          "accent-ink": "#ffa48a",
+          "accent-wash": "#44221b",
+          "on-accent": "#1d1519"
+        }
+      },
+      "night": {
+        "light": {
+          "ground": "#eceef6",
+          "raised": "#f8f9fd",
+          "raised-2": "#dcdfec",
+          "ink": "#1b1d33",
+          "ink-2": "#3c3f5a",
+          "muted": "#61647f",
+          "line": "#c9ccdd",
+          "accent": "#5450c4",
+          "accent-ink": "#4642aa",
+          "accent-wash": "#dfdef7",
+          "on-accent": "#ffffff"
+        },
+        "dark": {
+          "ground": "#0e1120",
+          "raised": "#171b2e",
+          "raised-2": "#20253c",
+          "ink": "#eceefa",
+          "ink-2": "#c3c7dd",
+          "muted": "#8c90ab",
+          "line": "#2c3150",
+          "accent": "#a7a3ff",
+          "accent-ink": "#bdb9ff",
+          "accent-wash": "#25234f",
+          "on-accent": "#0e1120"
+        }
+      }
+    },
+    "sceneTone": {
+      "source": "css/brief.css body[data-tone]; set by the scene engine from the brightness of the quiet corner",
+      "light": {
+        "on-scene": "#16202c",
+        "on-scene-2": "#2e3a48",
+        "scene-chip": "rgb(255 255 255 / .62)",
+        "scene-chip-hover": "rgb(255 255 255 / .85)",
+        "scene-shadow": "transparent"
+      },
+      "dark": {
+        "on-scene": "#fffaf2",
+        "on-scene-2": "#f1e9e2",
+        "scene-chip": "rgb(12 10 28 / .38)",
+        "scene-chip-hover": "rgb(12 10 28 / .58)",
+        "scene-shadow": "rgb(10 8 24 / .45)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Greeting",
+        "purpose": "The greeting for the hour over the scene. Display = Thmanyah Serif Display (Latin) / Zanjabeel (Arabic). Arabic: line-height 1.3, letter-spacing 0."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The brief's one headline under the dither seam. Arabic: weight 700, line-height 1.45."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Section heads; Arabic 700 at 24px."
+      },
+      "item": {
+        "displayName": "Item Title",
+        "purpose": "Titles of items, timeline times, names. Text = Thmanyah Sans."
+      },
+      "lead": {
+        "displayName": "Summary",
+        "purpose": "The summary under the headline, max 64ch; 17.5px on phones."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base text; details at 15.5px in ink-2, max 68ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Bylines, sources, chips, toolbar labels. Sentence case, never uppercase."
+      }
+    },
+    "fonts": {
+      "files": [
+        "fonts/thmanyah-serif-display-500.woff2",
+        "fonts/thmanyah-serif-display-700.woff2",
+        "fonts/zanjabeel-500.woff2",
+        "fonts/zanjabeel-700.woff2",
+        "fonts/thmanyah-sans-400.woff2",
+        "fonts/thmanyah-sans-500.woff2",
+        "fonts/thmanyah-sans-700.woff2"
+      ],
+      "licensing": "The Thmanyah licence forbids distributing font files in a way users can extract them; shipping requires permission from Thmanyah (ask@thmanyah.com). Zanjabeel licence not reviewed."
+    },
+    "shapes": {
+      "pixel-step": {
+        "value": "polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px))",
+        "purpose": "Two 2px steps (4px deep). Buttons, tools, stubs, fields, Ask bar, menus, avatars, toasts, to-do boxes."
+      },
+      "pixel-step-sm": {
+        "value": "polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px))",
+        "purpose": "One 2px step. Chips, counts, due tags, app icons, scene thumbnails."
+      },
+      "dotted-rule": {
+        "value": "linear-gradient(90deg, var(--line) 0 2px, transparent 2px 6px) 0 0 / 6px 2px repeat-x",
+        "purpose": "Divider between rows."
+      },
+      "now-rule": {
+        "value": "linear-gradient(90deg, var(--accent) 0 4px, transparent 4px 6px) 0 0 / 6px 2px",
+        "purpose": "The present moment in the day timeline."
+      },
+      "pixel-icon": {
+        "value": "9×9 grid, SVG rects, shape-rendering: crispEdges, fill currentColor",
+        "purpose": "All UI icons; render at 9px or 18px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pixel-drop",
+        "value": "text-shadow: 0 3px 0 var(--scene-shadow)  /* 2px wordmark, 1px date line */",
+        "purpose": "Hard one-step shadow under text on a dark-toned sky; transparent on a light-toned sky."
+      },
+      {
+        "name": "pixel-ledge",
+        "value": "filter: drop-shadow(0 3px 0 rgb(0 0 0 / .14))",
+        "purpose": "Hard 3px step under the scene menu (.14) and the Ask bar (.12). drop-shadow because clip-path cuts box-shadow."
+      },
+      {
+        "name": "inset-ring",
+        "value": "box-shadow: inset 0 0 0 2px var(--accent)",
+        "purpose": "Focus and field strokes drawn inside pixel-step shapes."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-page",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Page-level fades and rises: ground/ink retint (.6s), answer rise (.45s), toast (.35s)."
+      },
+      {
+        "name": "scene-fps",
+        "value": "12fps",
+        "purpose": "Scene animation; paused off-screen, in hidden tabs and under reduced motion."
+      },
+      {
+        "name": "day-dissolve",
+        "value": "8×8 Bayer dither over 14 frames",
+        "purpose": "Changing day, scene, hour or weather."
+      },
+      {
+        "name": "light-on",
+        "value": "4×4 Bayer fade-in over 4 frames, with a short flare",
+        "purpose": "A scene light coming on, one per step/app read while writing."
+      },
+      {
+        "name": "pixel-steps",
+        "value": "steps(3) check, steps(4) pop, steps(1) blink 1s, steps(6) burst 520ms",
+        "purpose": "Pixel things move in whole steps."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Active state on buttons, tools and stubs."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "Scene shows one still frame; no burst, no dissolve."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "columns-stack",
+        "value": "1000px"
+      },
+      {
+        "name": "greeting-below-scene",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "720px"
+      }
+    ],
+    "scene": {
+      "scenes": [
+        "room (desk by a window)",
+        "rooftop (Riyadh rooftop)",
+        "cabin (cabin by a lake)",
+        "town (little town street)"
+      ],
+      "times": [
+        "dawn (<8h)",
+        "morning (<12h)",
+        "afternoon (<17h)",
+        "evening (<20:30)",
+        "night"
+      ],
+      "weather": [
+        "clear",
+        "cloud",
+        "rain",
+        "snow"
+      ],
+      "logicalHeight": "144px",
+      "scale": "integer 2–4 (≈432px at 3×, 288px at 2×)",
+      "seam": "bottom 9 rows dithered (4×4 Bayer) into --ground",
+      "rtl": "canvas mirrored with scaleX(-1); parallax reversed"
+    },
+    "scope": "Every surface (brief, setup, settings, popup) uses this world. css/app.css holds the shared world; each page adds its own layout. Scenes mount through js/page-scene.js; strings go through js/i18n.js (English, Arabic RTL)."
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action in a view (Ask, Retry); hour accent fill, pixel-step corners.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Ask</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; height:40px; padding:0 16px; border:0; cursor:pointer; font:700 14.5px/1 var(--text, Text, ui-sans-serif, system-ui, sans-serif); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); transition:background-color .15s, color .15s; } .ds-btn-primary { background:var(--accent, #2f6fae); color:var(--on-accent, #fff); } .ds-btn-primary:hover { background:var(--accent-ink, #245a8f); } .ds-btn-primary:active { transform:translateY(1px); } .ds-btn-primary:focus-visible { outline:none; box-shadow:inset 0 0 0 2px var(--on-accent, #fff); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Everything else (Open settings, feedback votes); raised-2 fill, ink-filled when chosen.",
+      "html": "<div style=\"display:flex;gap:8px\"><button class=\"ds-btn2\">Yes</button><button class=\"ds-btn2 ds-on\" aria-pressed=\"true\">Not really</button></div>",
+      "css": ".ds-btn2 { display:inline-flex; align-items:center; height:40px; padding:0 16px; border:0; cursor:pointer; font:700 14.5px/1 var(--text, Text, ui-sans-serif, system-ui, sans-serif); color:var(--ink, #1d2531); background:var(--raised-2, #e8e3d6); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); transition:background-color .15s; } .ds-btn2:hover { background:color-mix(in oklab, var(--raised-2, #e8e3d6) 80%, var(--ink, #1d2531)); } .ds-btn2:active { transform:translateY(1px); } .ds-btn2:focus-visible { outline:none; box-shadow:inset 0 0 0 2px var(--ink, #1d2531); } .ds-btn2.ds-on { background:var(--ink, #1d2531); color:var(--ground, #f3f0e8); }"
+    },
+    {
+      "name": "Scene Toolbar",
+      "kind": "nav",
+      "refersTo": "scene-tool",
+      "description": "Day stubs and tools floating over the sky in translucent pixel-cornered chips; ink follows the scene tone.",
+      "html": "<div class=\"ds-sky\"><div class=\"ds-stub\"><span>Sat</span><b>7</b></div><div class=\"ds-stub ds-on\"><span>Today</span><b>8</b></div><button class=\"ds-tool\"><svg class=\"ds-px\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"0\" y=\"0\" width=\"9\" height=\"1\"/><rect x=\"0\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"5\" width=\"3\" height=\"1\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"6\" width=\"7\" height=\"1\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"7\" width=\"9\" height=\"1\"/></svg>Scene</button></div>",
+      "css": ".ds-sky { display:flex; align-items:center; gap:6px; padding:16px; background:linear-gradient(#4b97de, #a6d2f2); } .ds-stub { display:grid; justify-items:center; gap:1px; min-width:46px; padding:6px 8px 7px; background:rgb(255 255 255 / .62); color:#16202c; clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); cursor:pointer; } .ds-stub span { font:500 11px/1 var(--text, Text, ui-sans-serif, system-ui, sans-serif); opacity:.8; } .ds-stub b { font:700 17px/1 var(--display, Display, ui-serif, Georgia, serif); } .ds-stub:hover { background:rgb(255 255 255 / .85); } .ds-stub.ds-on { background:var(--accent, #2f6fae); color:var(--on-accent, #fff); } .ds-tool { display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; border:0; cursor:pointer; margin-inline-start:auto; background:rgb(255 255 255 / .62); color:#16202c; clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); font:500 14px/1 var(--text, Text, ui-sans-serif, system-ui, sans-serif); transition:background-color .2s; } .ds-tool:hover { background:rgb(255 255 255 / .85); } .ds-tool:focus-visible { outline:none; box-shadow:inset 0 0 0 2px var(--accent, #2f6fae); } .ds-px { width:18px; height:18px; fill:currentColor; }"
+    },
+    {
+      "name": "Chips, Count and Due Tag",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Small pixel-step-sm labels: neutral chip, warning chip, section count, due tag.",
+      "html": "<div style=\"display:flex;gap:8px;align-items:center\"><span class=\"ds-chip\">Linear</span><span class=\"ds-chip ds-warn\">Slack needs reconnecting</span><span class=\"ds-count\">3</span><span class=\"ds-due\">Due 12:00</span></div>",
+      "css": ".ds-chip { display:inline-flex; align-items:center; gap:6px; padding:5px 10px; font:500 13px/1.2 var(--text, Text, ui-sans-serif, system-ui, sans-serif); background:var(--raised-2, #e8e3d6); color:var(--ink-2, #3f4856); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); } .ds-chip.ds-warn { background:var(--accent-wash, #dce8f3); color:var(--accent-ink, #245a8f); } .ds-count { min-width:26px; padding:3px 7px; text-align:center; font:700 13px/1.3 var(--text, Text, ui-sans-serif, system-ui, sans-serif); background:var(--accent-wash, #dce8f3); color:var(--accent-ink, #245a8f); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); } .ds-due { padding:3px 8px; font:700 12.5px/1.3 var(--text, Text, ui-sans-serif, system-ui, sans-serif); background:var(--raised-2, #e8e3d6); color:var(--ink-2, #3f4856); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); }"
+    },
+    {
+      "name": "Section with Dotted Rows",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "Section head (18px pixel icon, Display title, count) over open rows divided by dotted 2px pixel rules. No boxes.",
+      "html": "<section class=\"ds-sec\"><div class=\"ds-head\"><svg class=\"ds-px ds-acc\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"4\" y=\"0\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"3\" width=\"3\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"9\" height=\"1\"/><rect x=\"3\" y=\"5\" width=\"3\" height=\"1\"/><rect x=\"2\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"7\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"8\" width=\"1\" height=\"1\"/></svg><h2>Push your work forward</h2><span class=\"ds-count2\">2</span></div><ul><li><a class=\"ds-it\" href=\"#\">Turn the SSO requests into a launch-week story</a><p>Three enterprise customers asked this week; it fits Thursday's announcement.</p><span class=\"ds-src\"><span class=\"ds-app\"><svg class=\"ds-px9\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"0\" y=\"1\" width=\"9\" height=\"1\"/><rect x=\"0\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"7\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"7\" width=\"9\" height=\"1\"/></svg></span>Gmail</span></li><li><a class=\"ds-it\" href=\"#\">Send Daniel the retention numbers</a><p>He will ask in this afternoon's check-in.</p></li></ul></section>",
+      "css": ".ds-sec { color:var(--ink, #1d2531); background:var(--ground, #f3f0e8); padding:16px; font:400 16px/1.6 var(--text, Text, ui-sans-serif, system-ui, sans-serif); } .ds-head { display:flex; align-items:center; gap:10px; padding-bottom:12px; } .ds-head h2 { margin:0; font:500 25px/1.15 var(--display, Display, ui-serif, Georgia, serif); letter-spacing:-.01em; } .ds-px { width:18px; height:18px; fill:currentColor; } .ds-acc { color:var(--accent, #2f6fae); } .ds-count2 { margin-inline-start:auto; padding:3px 7px; font:700 13px/1.3 var(--text, Text, ui-sans-serif, system-ui, sans-serif); background:var(--accent-wash, #dce8f3); color:var(--accent-ink, #245a8f); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); } .ds-sec ul { list-style:none; margin:0; padding:0; } .ds-sec li { padding:15px 0; background-image:linear-gradient(90deg, var(--line, #cfc8b8) 0 2px, transparent 2px 6px); background-size:6px 2px; background-repeat:repeat-x; } .ds-it { display:block; font:700 17px/1.4 var(--text, Text, ui-sans-serif, system-ui, sans-serif); color:var(--ink, #1d2531); text-decoration:none; } .ds-it:hover { text-decoration:underline; text-decoration-color:var(--accent, #2f6fae); text-underline-offset:3px; } .ds-it:focus-visible { outline:2px solid var(--accent, #2f6fae); outline-offset:3px; } .ds-sec p { margin:4px 0 0; font-size:15.5px; color:var(--ink-2, #3f4856); max-width:68ch; } .ds-src { display:inline-flex; align-items:center; gap:6px; margin-top:8px; font-size:13px; color:var(--muted, #626974); } .ds-app { display:inline-grid; place-items:center; width:18px; height:18px; background:#d4483b; clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); } .ds-px9 { width:9px; height:9px; fill:#fff; }"
+    },
+    {
+      "name": "To-do Tick",
+      "kind": "custom",
+      "refersTo": "button-primary",
+      "description": "A pixel-step checkbox: ink-2 frame around a ground square; checked fills with accent and steps a pixel check in.",
+      "html": "<div style=\"display:flex;gap:14px\"><label class=\"ds-tick\"><input type=\"checkbox\"><span class=\"ds-box\"><svg class=\"ds-ck\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"7\" y=\"1\" width=\"2\" height=\"1\"/><rect x=\"6\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"3\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"2\" height=\"1\"/><rect x=\"4\" y=\"4\" width=\"2\" height=\"1\"/><rect x=\"1\" y=\"5\" width=\"4\" height=\"1\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"1\"/></svg></span></label><label class=\"ds-tick\"><input type=\"checkbox\" checked><span class=\"ds-box\"><svg class=\"ds-ck\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"7\" y=\"1\" width=\"2\" height=\"1\"/><rect x=\"6\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"3\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"2\" height=\"1\"/><rect x=\"4\" y=\"4\" width=\"2\" height=\"1\"/><rect x=\"1\" y=\"5\" width=\"4\" height=\"1\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"1\"/></svg></span></label></div>",
+      "css": ".ds-tick { position:relative; display:block; width:22px; height:22px; cursor:pointer; } .ds-tick input { position:absolute; inset:0; margin:0; opacity:0; cursor:pointer; } .ds-box { position:absolute; inset:0; display:grid; place-items:center; background:var(--ink-2, #3f4856); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); transition:background-color .15s; } .ds-box::before { content:\"\"; position:absolute; inset:2px; background:var(--ground, #f3f0e8); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); } .ds-ck { position:relative; width:18px; height:18px; fill:var(--on-accent, #fff); opacity:0; transform:scale(.4); transition:opacity .15s, transform .25s steps(3, end); } .ds-tick:hover .ds-box, .ds-tick input:checked + .ds-box { background:var(--accent, #2f6fae); } .ds-tick input:checked + .ds-box::before { opacity:0; } .ds-tick input:checked + .ds-box .ds-ck { opacity:1; transform:scale(1); } .ds-tick input:focus-visible + .ds-box { outline:2px solid var(--accent, #2f6fae); outline-offset:2px; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Raised text field with pixel-step corners and a 2px inset stroke that turns accent on focus.",
+      "html": "<textarea class=\"ds-field\" rows=\"2\" placeholder=\"Anything to focus on tomorrow?\"></textarea>",
+      "css": ".ds-field { display:block; width:100%; padding:11px 13px; border:0; resize:vertical; font:400 15.5px/1.55 var(--text, Text, ui-sans-serif, system-ui, sans-serif); color:var(--ink, #1d2531); caret-color:var(--accent, #2f6fae); background:var(--raised, #fbfaf5); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); box-shadow:inset 0 0 0 2px var(--line, #cfc8b8); } .ds-field::placeholder { color:var(--muted, #626974); opacity:1; } .ds-field:focus { outline:none; box-shadow:inset 0 0 0 2px var(--accent, #2f6fae); }"
+    },
+    {
+      "name": "Ask Bar",
+      "kind": "input",
+      "refersTo": "ask-bar",
+      "description": "The fixed follow-up bar: raised, pixel-cornered, on a hard 3px pixel ledge, with a pencil icon and a primary Ask button.",
+      "html": "<div class=\"ds-ask-wrap\"><form class=\"ds-ask\" onsubmit=\"return false\"><svg class=\"ds-pen\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"7\" y=\"0\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"1\" width=\"3\" height=\"1\"/><rect x=\"5\" y=\"2\" width=\"3\" height=\"1\"/><rect x=\"4\" y=\"3\" width=\"3\" height=\"1\"/><rect x=\"3\" y=\"4\" width=\"3\" height=\"1\"/><rect x=\"2\" y=\"5\" width=\"3\" height=\"1\"/><rect x=\"1\" y=\"6\" width=\"3\" height=\"1\"/><rect x=\"0\" y=\"7\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"8\" width=\"1\" height=\"1\"/></svg><input placeholder=\"Ask about today…\" aria-label=\"Ask about today\"><button class=\"ds-ask-btn\">Ask</button></form></div>",
+      "css": ".ds-ask-wrap { filter:drop-shadow(0 3px 0 rgb(0 0 0 / .12)); max-width:720px; } .ds-ask { display:flex; align-items:center; gap:8px; padding:6px 6px 6px 14px; background:var(--raised, #fbfaf5); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); } .ds-ask:focus-within { box-shadow:inset 0 0 0 2px var(--accent, #2f6fae); } .ds-pen { width:18px; height:18px; fill:var(--accent, #2f6fae); flex:none; } .ds-ask input { flex:1; min-width:0; height:40px; border:0; background:transparent; font:400 15.5px/1.55 var(--text, Text, ui-sans-serif, system-ui, sans-serif); color:var(--ink, #1d2531); caret-color:var(--accent, #2f6fae); } .ds-ask input:focus { outline:none; } .ds-ask input::placeholder { color:var(--muted, #626974); } .ds-ask-btn { height:40px; padding:0 16px; border:0; cursor:pointer; font:700 14.5px/1 var(--text, Text, ui-sans-serif, system-ui, sans-serif); background:var(--accent, #2f6fae); color:var(--on-accent, #fff); clip-path:polygon(0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)); } .ds-ask-btn:hover { background:var(--accent-ink, #245a8f); } .ds-ask-btn:focus-visible { outline:none; box-shadow:inset 0 0 0 2px var(--on-accent, #fff); }"
+    },
+    {
+      "name": "Greeting over the Scene",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Display greeting and date line in scene ink, with a hard pixel drop on a dark-toned sky, above the Bayer dither seam into the ground.",
+      "html": "<div class=\"ds-hero\"><p class=\"ds-greet\">Good evening, Ali.</p><p class=\"ds-when\">Sunday, November 8 · 21°C and clear in Riyadh</p><div class=\"ds-seam\"></div></div>",
+      "css": ".ds-hero { position:relative; padding:28px 24px 40px; background:linear-gradient(#1d1b4b, #472e70 40%, #994379 75%, #e2666b); color:#fffaf2; } .ds-greet { margin:0; font:700 clamp(36px, 3.9vw, 62px)/1.04 var(--display, Display, ui-serif, Georgia, serif); letter-spacing:-.02em; text-shadow:0 3px 0 rgb(10 8 24 / .45); } .ds-when { margin:14px 0 0; font:500 16.5px/1.45 var(--text, Text, ui-sans-serif, system-ui, sans-serif); color:#f1e9e2; text-shadow:0 1px 0 rgb(10 8 24 / .45); } .ds-seam { position:absolute; inset:auto 0 0 0; height:12px; background-image:linear-gradient(90deg, #1d1519 0 3px, transparent 3px 6px), linear-gradient(90deg, transparent 0 3px, #1d1519 3px 6px); background-size:6px 3px; background-position:0 6px, 0 9px; background-repeat:repeat-x; }"
+    },
+    {
+      "name": "App Icon",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "A pixel-step-sm square in the app's own color with a white 9×9 pixel mark, ringed by 2px of ground so icons can stack.",
+      "html": "<span class=\"ds-stack\"><span class=\"ds-ai\" style=\"--c:#d4483b\"><svg class=\"ds-m\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"0\" y=\"1\" width=\"9\" height=\"1\"/><rect x=\"0\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"7\" y=\"2\" width=\"2\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"7\" width=\"9\" height=\"1\"/></svg></span><span class=\"ds-ai\" style=\"--c:#4a154b\"><svg class=\"ds-m\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"2\" y=\"0\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"0\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"2\" width=\"9\" height=\"1\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"5\" width=\"9\" height=\"1\"/><rect x=\"2\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"7\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"7\" width=\"1\" height=\"1\"/></svg></span><span class=\"ds-ai\" style=\"--c:#5e6ad2\"><svg class=\"ds-m\" viewBox=\"0 0 9 9\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><rect x=\"2\" y=\"0\" width=\"5\" height=\"1\"/><rect x=\"1\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"7\" y=\"1\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"2\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\"/><rect x=\"1\" y=\"7\" width=\"1\" height=\"1\"/><rect x=\"7\" y=\"7\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"8\" width=\"5\" height=\"1\"/></svg></span></span>",
+      "css": ".ds-stack { display:inline-flex; padding:4px; background:var(--ground, #f3f0e8); } .ds-ai { display:inline-grid; place-items:center; width:24px; height:24px; background:var(--c); clip-path:polygon(0 2px, 2px 2px, 2px 0, calc(100% - 2px) 0, calc(100% - 2px) 2px, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 2px calc(100% - 2px), 0 calc(100% - 2px)); box-shadow:0 0 0 2px var(--ground, #f3f0e8); } .ds-ai + .ds-ai { margin-inline-start:-4px; } .ds-m { width:9px; height:9px; fill:#fff; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Window at That Hour",
+    "overview": "**Creative North Star: \"The Window at That Hour\"**\n\nThe brief opens on a living pixel-art diorama of the hour it was written: one of four places the reader chose (a desk by a window, a Riyadh rooftop, a cabin by a lake, a little town street), at one of five times of day (dawn, morning, afternoon, evening, night), under that day's weather, all drawn in code. The scene is the only picture on the page, and it sets the temperature of everything under it: the page ground, ink and accent are tinted by the same hour, light and dark. Below a Bayer-dither seam the scene melts into a quiet reading page with no cards and no glass, where Thmanyah Serif Display greets and Thmanyah Sans reads.\n\nThe world is cozy and exact at once. Every pixel is a whole pixel: the scene renders at a 144-pixel logical height and scales by an integer factor (2×, 3× or 4×, so about 432px tall on a laptop, 288px on a phone) with `image-rendering: pixelated`. The page borrows that grammar instead of decorating with it: corners are stepped in 2px pixels, icons are drawn on a 9×9 grid, rules are dotted 2px pixels, and motion moves in `steps()`. Density is low and the reading column is generous; the scene is the delight, the page is for being caught up in two minutes.\n\nThe build refuses the AI-summary defaults: no card dashboard, no cream editorial column, no frosted panels.\n\n**Scope.** Every surface lives in this world: the brief (reading, writing, error), setup, Settings and the toolbar popup. `css/app.css` holds the shared world (fonts, hour tokens, the scene header, every control); each page adds only its own layout (`brief.css`, `welcome.css`, `settings.css`, `popup.css`). Every page opens on the reader's chosen scene through `js/page-scene.js`, and every visible string goes through `js/i18n.js` (English and Arabic, right-to-left).",
+    "keyCharacteristics": [
+      "A crisp code-drawn pixel diorama at the top: 4 scenes × 5 times of day × weather (clear, cloud, rain, snow).",
+      "Page tokens tinted by the hour the brief was written, with a full light and dark set for each hour.",
+      "A Bayer-dither seam (9 rows) melting the scene into the page ground.",
+      "Pixel-stepped clip-path corners, 9×9 pixel icons, dotted 2px pixel rules; no border-radius, no borders.",
+      "Display serif for greeting and headings (Zanjabeel in Arabic), a sans for reading.",
+      "Arabic mirrors the scene; lights in the scene come on one by one as each app is read."
+    ],
+    "rules": [
+      {
+        "name": "The Same Hour Rule",
+        "body": "The page and the scene always show the same hour. Set `data-time` from the time the brief was written (or now, while writing), never from a fixed theme, and let ground, ink and accent swap together.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "Each hour has exactly one accent and its ink and wash. No second hue enters page UI; app colors appear only inside app icons, where they are data.",
+        "section": "colors"
+      },
+      {
+        "name": "The Arabic Breath Rule",
+        "body": "Arabic display text gets room, not tracking: letter-spacing 0, greeting line-height 1.3, headline 1.45, and headings step up to weight 700.",
+        "section": "typography"
+      },
+      {
+        "name": "The Greeting Speaks, The Page Reads Rule",
+        "body": "Display is for the voice of the page (greeting, headline, section heads, the feedback question). Everything a reader scans, including item titles, is Text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Corner Rule",
+        "body": "Each wide scene keeps its busy art to the end side and leaves the start side's sky calm for the greeting. Put nothing in that corner but the greeting and its date line.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hard Step Rule",
+        "body": "Shadows are whole-pixel steps with zero blur and a vertical offset only. If it looks soft, it doesn't belong to this world.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Whole Pixel Rule",
+        "body": "Every pixel shape on the page, from corner step to icon cell to rule dot, lands on whole pixels at its rendered size. No radius, no anti-aliased curve, no fractional icon cell.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** set `data-time` from the hour the brief was written and let the scene, ground, ink and accent change together, in both light and dark.",
+      "**Do** cut every corner with the pixel-step polygons (4px or 2px) and draw focus and strokes as 2px inset rings inside them.",
+      "**Do** separate rows with the dotted 2px pixel rule in line color, and keep items as open rows.",
+      "**Do** draw new icons on the 9×9 grid and render them at 9px or 18px in currentColor.",
+      "**Do** move in whole steps: `steps()` easing for pixel things (checks, pops, blinks, bursts), dither dissolves for the scene, and `cubic-bezier(.16, 1, .3, 1)` only for page-level fades and rises.",
+      "**Do** mirror the scene in Arabic and keep the greeting in the quiet start-side corner; set Arabic display text with letter-spacing 0 and more line-height.",
+      "**Do** honor reduced motion: one still frame of the scene, no transitions, no burst, no dissolve.",
+      "**Do** pick greeting ink from the scene's measured tone (`data-tone`), never from the color scheme alone."
+    ],
+    "donts": [
+      "**Don't** put brief content in cards, tiles or bordered boxes; no card dashboard.",
+      "**Don't** fall back to a cream editorial column or the old tear-off-calendar look (paper pad, perforations, Archivo) on any surface.",
+      "**Don't** use `border-radius`, borders, blurred shadows or `backdrop-filter` glass on page UI.",
+      "**Don't** smooth the scene: no anti-aliasing, no non-integer scale, no CSS filters over the canvas.",
+      "**Don't** introduce a second accent hue in page UI; app brand colors stay inside app icons.",
+      "**Don't** place controls or content in the scene's quiet corner other than the greeting and date line.",
+      "**Don't** use glyph or emoji icons, or icon fonts; use the 9×9 pixel set."
+    ]
+  }
+}

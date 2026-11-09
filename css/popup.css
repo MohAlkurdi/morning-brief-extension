@@ -1,0 +1,36 @@
+/* Toolbar popup: a cropped slice of the scene, then today at a glance. */
+
+body { width: 360px; min-height: 200px; }
+.hero { height: 172px; }
+.hero .scene { position: absolute; inset-inline-start: 0; bottom: 0; }
+.bar { padding: 12px 14px; }
+.bar .tools { margin-inline-start: auto; }
+.tool { height: 32px; padding: 0 9px; }
+.wordmark { font-size: 17px; padding: 7px 10px; color: var(--ink); background: var(--raised); clip-path: var(--px); text-shadow: none; }
+.wordmark .mark { filter: none; }
+body[data-tone] .wordmark .mark { color: var(--accent); }
+.tool { background: var(--raised); color: var(--ink); }
+.tool:hover { background: var(--raised-2); }
+.wordmark span { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
+
+#pop { padding: 6px 18px 18px; animation: rise .45s var(--ease) both; }
+.p-greet { font: 700 25px/1.15 var(--display); letter-spacing: -.01em; margin: 4px 0 6px; text-wrap: balance; }
+:lang(ar) .p-greet { line-height: 1.45; letter-spacing: 0; }
+.p-head { font-size: 14.5px; line-height: 1.5; color: var(--ink-2); }
+.p-sub { color: var(--ink-2); font-size: 14.5px; line-height: 1.5; }
+.p-writing { display: inline-flex; align-items: center; gap: 8px; }
+.dots { display: inline-flex; gap: 3px; }
+.dots i { width: 5px; height: 5px; background: var(--accent); animation: blink 1s steps(1, end) infinite; }
+.dots i:nth-child(2) { animation-delay: .2s; }
+.dots i:nth-child(3) { animation-delay: .4s; }
+.p-label { display: flex; justify-content: space-between; align-items: baseline; font: 500 18px/1.2 var(--display); margin: 18px 0 6px; }
+:lang(ar) .p-label { font-weight: 700; }
+.p-label span { font: 700 12.5px/1 var(--text); color: var(--accent-ink); }
+.p-next { display: grid; grid-template-columns: 50px 1fr; gap: 10px; padding: 10px 0; font-size: 13.5px; line-height: 1.4; background-image: var(--dots); background-size: 6px 2px; background-repeat: repeat-x; }
+.p-next time { font: 700 15px/1.35 var(--text); color: var(--accent-ink); }
+.p-next .muted { display: block; font-size: 12.5px; }
+.p-list { list-style: none; margin: 0; padding: 0; }
+.p-list li { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; padding: 9px 0; font-size: 13.5px; line-height: 1.4; background-image: var(--dots); background-size: 6px 2px; background-repeat: repeat-x; }
+.p-actions { display: flex; margin-top: 16px; }
+.p-actions .btn { flex: 1; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } }

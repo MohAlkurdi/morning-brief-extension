@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "Morning Brief",
+  "version": "1.0.0",
+  "description": "Start every day caught up. Claude reads your email, calendar, Slack and more, and writes one calm page each morning.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ],
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Morning Brief",
+    "default_popup": "pages/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "pages/settings.html",
+    "open_in_tab": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "morning-brief@local",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "personalCommunications",
+          "authenticationInfo"
+        ]
+      }
+    }
+  }
+}

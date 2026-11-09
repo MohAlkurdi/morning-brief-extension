@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morning Brief</title>
+  <link rel="preload" href="../fonts/thmanyah-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/thmanyah-serif-display-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/brief.css">
+</head>
+<body data-time="morning" data-tone="light">
+  <!--
+  THESIS: The brief opens on a living pixel-art window into the hour it was written: the place you chose, that time of day, that day's weather, all drawn in code. It refuses the AI-summary defaults: no card dashboard, no cream editorial column.
+  OWN-WORLD: Crisp 3px-pixel dioramas (desk by a window, Riyadh rooftop, lakeside cabin, town street) whose sky tints the page. The scene dithers into a time-tinted ground. Thmanyah Serif Display greets, Thmanyah Sans reads, Zanjabeel greets in Arabic. Pixel-stepped corners, 9×9 pixel icons, dotted pixel rules. No cards, no glass.
+  STORY: See the scene and a greeting for the hour, read one headline and summary, then work down: push forward, to-dos ticked with a pixel burst, updates, the day as a timeline, people, looking ahead. Ask follow-ups in the bar.
+  FIRST VIEWPORT: Full-bleed scene, about 432px. Over the sky: wordmark, last seven days, scene/copy/rewrite/settings. Greeting up to 62px in the quiet corner, date and weather under it. Headline starts under the dither seam. Ask bar fixed at the bottom.
+  FORM: Cozy pixel diorama, pinned by the user's brief (no roll); seed key: pinned-pixel-diorama.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <header class="hero">
+    <canvas class="scene" aria-hidden="true"></canvas>
+    <nav class="bar">
+      <a class="wordmark" href="brief.html"></a>
+      <div class="stubs"></div>
+      <div class="tools">
+        <button type="button" class="tool" id="scene-btn" aria-haspopup="menu" aria-expanded="false"></button>
+        <button type="button" class="tool" id="copy"></button>
+        <button type="button" class="tool" id="regen"></button>
+        <a class="tool" id="settings" href="settings.html"></a>
+      </div>
+      <div class="scene-menu" role="menu" hidden></div>
+    </nav>
+    <div class="hello" aria-live="polite">
+      <p class="greeting"></p>
+      <p class="when"></p>
+    </div>
+  </header>
+  <main class="page" id="app" aria-live="polite"></main>
+  <div class="ask-wrap" hidden>
+    <div class="answer" hidden></div>
+    <form class="ask">
+      <input id="question" autocomplete="off">
+      <button class="btn primary" id="send"></button>
+    </form>
+  </div>
+  <script type="module" src="brief.js"></script>
+</body>
+</html>
